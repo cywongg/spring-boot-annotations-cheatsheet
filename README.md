@@ -17,3 +17,21 @@
   - @Service - write business logic
   - @Repository - write database logic
   - ^ annotate differently -> tell role of that class
+
+### Spring Core related Annotations
+- @Configuration
+- @Bean
+  - ^ these 2 are used if you want to use java based configuration 
+  we didn't create an object of testbean, it's created by spring ioc
+- @Autowired - inject this object in my class wherever I want to use it
+  - 
+- @Qualifier 
+- @Lazy 
+- @Value 
+- @PropertySource
+- @ConfigurationProperties 
+- @Profile
+- @Scope
+
+
+
