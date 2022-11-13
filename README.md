@@ -25,7 +25,8 @@
   we didn't create an object of testbean, it's created by spring ioc
 - @Autowired - inject this object in my class wherever I want to use it
   - 
-- @Qualifier 
+- @Qualifier - 
+- @Primary
 - @Lazy 
 - @Value 
 - @PropertySource
